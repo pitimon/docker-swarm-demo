@@ -12,7 +12,7 @@ services:
     nginx:
         image: lsapan/docker-swarm-demo-nginx
         ports:
-            - 8000:80
+            - 8001:80
         deploy:
             mode: global
 
